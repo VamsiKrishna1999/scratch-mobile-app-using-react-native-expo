@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "scratch",
+    "slug": "scratch",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/icon.jpg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/scratch-og.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#25B0F5"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
